@@ -1,0 +1,14 @@
+WHAT
+====
+This is a plugin of CKEDITOR
+
+It check your content of EDITOR, find each \<img src="url" ... \>, then request your server
+
+The server download the image the "url" specfied, and return a new "URL", which is the url of downloaded image in your server
+
+Then the plugin replace the "url" with the new "URL", so your content no longer do not depend on the external resource.
+
+FOR　WHAT
+=========
+make your image in the EDITOR's content link to your site, do not depend on external resource
+
